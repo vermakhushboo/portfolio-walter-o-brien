@@ -14,7 +14,7 @@
             <a class="link-primary" target="_blank" href="https://github.com/appwrite/appwrite">Visit my GitHub</a>
         </div>
         <div class="picture">
-            <img src={profile} alt="Profile picture of Walter O'Brien from the show, Scorpion">
+            <img src={profile} width="300" height="auto" alt="Profile picture of Walter O'Brien from the show, Scorpion">
         </div>
     </section>
     <section id="about" class="color-secondary">
