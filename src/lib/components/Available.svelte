@@ -4,15 +4,13 @@
 </script>
 
 <section id="available" class="container">
-    <h3>
-        <Typography.Title size="large">
-            <span>●</span>
-            Available for new projects
-        </Typography.Title>
-    </h3>
-    <p>
-        <Typography.Text variant="l-500">Available for new partnerships and collaborations. Let's chat!</Typography.Text>
-    </p>
+    <Typography.Title size="medium">
+        <span>●</span>
+        Available for new projects
+    </Typography.Title>
+
+    <Typography.Text variant="l-500">Available for new partnerships and collaborations. Let's chat!</Typography.Text>
+
     <div class="social-buttons">
         <Button.Button variant="secondary" size="medium">
             <IconLinkedin />

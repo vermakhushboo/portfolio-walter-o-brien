@@ -22,3 +22,12 @@ body, main {
     border-radius: 1rem;
     padding: 1rem;
 }
+
+#about > p {
+    text-wrap: pretty;
+    margin: 0;
+}
+
+.job > .info > h4, .job > .time > p {
+    margin: 0;
+}

@@ -2,6 +2,7 @@
     import profile from '$lib/images/profile.webp';
     import Available from '$lib/components/Available.svelte';
 	import About from '$lib/components/About.svelte';
+	import Experience from '../lib/components/Experience.svelte';
 </script>
 
 <svelte:head>
@@ -11,11 +12,15 @@
 <main>
     <div class="left-column">
         <div class="left-inner-top">
-            <Available />
-            <About />
+            <div class="left-inner-top-inner-column">
+                <Available />
+            </div>
+            <div class="left-inner-top-inner-column">
+                <About />
+            </div>
         </div>
         <div class="left-inner-bottom">
-
+            <Experience />
         </div>
     </div>
 
@@ -44,6 +49,19 @@
     .left-inner-top {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 33%;
+        gap: 1rem;
+    }
+
+    .left-inner-top-inner-column 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        align-items: center;
     }
 </style>
 
