@@ -1,5 +1,7 @@
 <script>
-    import profile from '$lib/profile.webp';
+    import profile from '$lib/images/profile.webp';
+    import Available from '$lib/components/Available.svelte';
+	import About from '$lib/components/About.svelte';
 </script>
 
 <svelte:head>
@@ -7,6 +9,45 @@
 </svelte:head>
 
 <main>
+    <div class="left-column">
+        <div class="left-inner-top">
+            <Available />
+            <About />
+        </div>
+        <div class="left-inner-bottom">
+
+        </div>
+    </div>
+
+    <div class="right-column">
+        <div class="right-inner-top">
+
+        </div>
+        <div class="right-inner-middle">
+
+        </div>
+        <div class="right-inner-bottom">
+
+        </div>
+    </div>
+
+</main>
+
+<style>
+    .left-column {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 66.67%;
+    }
+
+    .left-inner-top {
+        display: flex;
+        flex-direction: row;
+    }
+</style>
+
+<!--
     <section id="opening" class="color-primary">
         <div class="text">
             <h1>Hi, I'm Walter O'Brien!</h1>
@@ -137,3 +178,4 @@
         </ul>
     </footer>
 </main>
+-->
