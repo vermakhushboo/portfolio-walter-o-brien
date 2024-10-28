@@ -6,7 +6,7 @@
 <section id="available" class="container">
     <Typography.Title size="medium">
         <span>●</span>
-        Available for new projects now
+        Available for new projects now or never
     </Typography.Title>
 
     <Typography.Text variant="l-500">Available for new partnerships and collaborations. Let's chat!</Typography.Text>
